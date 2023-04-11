@@ -11,9 +11,9 @@ class Car {
       if (fuelNeeded <= this.currentFuel) {
         this.millage += km;
         this.currentFuel -= fuelNeeded;
-        console.log(`${km} km sürüldü. Yeni millage dəyəri: ${this.millage}. Yeni benzin miqdarı: ${this.currentFuel}.`);
+        console.log(`${km} km sürüldü.Çəndəki qaliq benzin: ${this.currentFuel}.`);
       } else {
-        console.log(`Benzin yoxdur`);
+        console.log(`Benzin yoxdur !!!!`);
       }
     };
   }
